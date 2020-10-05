@@ -12,7 +12,6 @@ document
   .append(...ingredients.map(elem => {
     const createTag = document.createElement('li');
     createTag.textContent = elem;
-    console.log('test for map or append');
     return createTag;
   }));
 
