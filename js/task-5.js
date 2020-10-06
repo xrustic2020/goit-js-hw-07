@@ -10,7 +10,6 @@ const lengthChecked = function () {
 const inputEvent = function () {
   lengthChecked();
   output.textContent = inputName.value;
-  console.log(inputName.value.length);
 };
 
 inputName.addEventListener('input', inputEvent);
